@@ -1,17 +1,16 @@
+# Gestion de caserne de pompiers
+
 <img width="1366" height="725" alt="Capture d’écran (19)" src="https://github.com/user-attachments/assets/3a451b13-a899-41ae-bfa6-871397708f2d" />
 
-## Contexte du projet
-**SAÉ 24 - Application Pompier** - Projet développé en 5 semaines par un groupe de 3 étudiants (Abdullah NEZAMI, Thomas BARSEGHIAN, Victor SHHR) dans le cadre de leur formation.
+Projet développé en 5 semaines par un groupe de 3 étudiants dans le cadre de leur formation.
 
-## Analyse détaillée
-
-**Fonctionnalités principales identifiées :**
-- ✅ **Gestion des ressources humaines** (Abdullah) : Consultation profils pompiers, habilitations, grades, affectations
-- ✅ **Tableau de bord missions** (Thomas + Abdullah) : Visualisation, clôture et génération PDF
-- ✅ **Création de nouvelles missions** (Thomas) 
-- ✅ **Gestion des engins** (Abdullah) : Liaison données véhicules-caserne
-- ✅ **Statistiques** (Victor)
-- ✅ **Système d'authentification** admin
+## Fonctionnalités
+- **Gestion des ressources humaines** : Consultation profils pompiers, habilitations, grades, affectations
+- **Tableau de bord missions** : Visualisation, clôture et génération PDF
+- **Création de nouvelles missions** 
+- **Gestion des engins** : Liaison données véhicules-caserne
+- **Statistiques**
+- **Système d'authentification** : admin
 
 **Architecture technique :**
 - Dualité **mode connecté/déconnecté** avec classes `Connexion.cs` et `MesDatas.cs`
@@ -25,19 +24,12 @@
 - Maîtrise de la liaison de données
 - Gestion des transactions SQLite
 
-Voici le README.md précis reflétant votre projet :
-
-```markdown
-# SAÉ 24 - Application de Gestion des Services d'Incendie
-
-Application Windows Forms complète pour la gestion opérationnelle des casernes de pompiers. Développée en C# avec architecture modulaire et gestion duale (connecté/déconnecté) des données.
 
 ## 🛠 Technologies Utilisées
 - **C# .NET** - Windows Forms
 - **SQLite** - Base de données relationnelle
 - **iTextSharp** - Génération de rapports PDF
 - **Git** - Gestion collaborative de version
-- **Architecture MVC** - Séparation claire des préoccupations
 
 ## 📦 Installation et Utilisation
 1. **Cloner le repository** :
@@ -55,36 +47,6 @@ Application Windows Forms complète pour la gestion opérationnelle des casernes
    - Le formulaire principal `mainLayout` charge dynamiquement les UserControls
    - Utiliser les identifiants admin pour accéder aux fonctionnalités étendues
 
-## 🚀 Fonctionnalités Principales
-
-### 👥 Gestion des Ressources Humaines
-- Consultation complète des profils pompiers
-- Gestion des habilitations et grades
-- Affectation aux casernes
-- Ajout de nouveaux pompiers (admin)
-- Suivi de carrière et congés
-
-### 🚨 Gestion des Missions
-- Tableau de bord visuel des missions
-- Création de nouvelles interventions
-- Clôture avec horodatage automatique
-- Génération de rapports PDF détaillés
-- Filtrage par statut (en cours/terminées)
-
-### 🚒 Gestion des Engins
-- Liaison de données entre véhicules et casernes
-- Suivi de l'état des équipements
-- Gestion des réparations
-
-### 📊 Tableau de Bord et Statistiques
-- Vue d'ensemble opérationnelle
-- Métriques et indicateurs de performance
-- Interface utilisateur intuitive et responsive
-
-### 🔐 Sécurité
-- Système d'authentification administrateur
-- Transactions SQLite pour l'intégrité des données
-- Validation des permissions par fonctionnalité
 
 ## 🏗 Architecture
 - **Mode déconnecté** : `MesDatas.cs` pour les opérations batch
@@ -94,7 +56,5 @@ Application Windows Forms complète pour la gestion opérationnelle des casernes
 
 ---
 
-*Développé dans le cadre de la SAÉ 24 sur 5 semaines par Abdullah NEZAMI (chef de projet), Thomas BARSEGHIAN et Victor SHHR - Groupe TP7*
-```
 
 Ce README reflète fidèlement votre projet tel que documenté dans vos rapports ! 🎯
