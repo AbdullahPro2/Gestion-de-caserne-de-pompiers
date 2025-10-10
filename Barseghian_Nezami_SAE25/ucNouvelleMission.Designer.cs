@@ -100,7 +100,7 @@
             this.btnEquipe.Font = new System.Drawing.Font("Arial", 12F);
             this.btnEquipe.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.btnEquipe.Location = new System.Drawing.Point(776, 100);
-            this.btnEquipe.Margin = new System.Windows.Forms.Padding(2);
+            this.btnEquipe.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnEquipe.Name = "btnEquipe";
             this.btnEquipe.Size = new System.Drawing.Size(136, 42);
             this.btnEquipe.TabIndex = 8;
@@ -117,7 +117,7 @@
             this.btnAnnuler.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAnnuler.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.btnAnnuler.Location = new System.Drawing.Point(622, 100);
-            this.btnAnnuler.Margin = new System.Windows.Forms.Padding(2);
+            this.btnAnnuler.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAnnuler.Name = "btnAnnuler";
             this.btnAnnuler.Size = new System.Drawing.Size(136, 42);
             this.btnAnnuler.TabIndex = 7;
@@ -181,7 +181,7 @@
             this.btnCreer.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F);
             this.btnCreer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.btnCreer.Location = new System.Drawing.Point(776, 265);
-            this.btnCreer.Margin = new System.Windows.Forms.Padding(2);
+            this.btnCreer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCreer.Name = "btnCreer";
             this.btnCreer.Size = new System.Drawing.Size(136, 42);
             this.btnCreer.TabIndex = 9;
@@ -193,7 +193,7 @@
             // 
             this.flpVehicules.AutoScroll = true;
             this.flpVehicules.Location = new System.Drawing.Point(15, 88);
-            this.flpVehicules.Margin = new System.Windows.Forms.Padding(2);
+            this.flpVehicules.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.flpVehicules.Name = "flpVehicules";
             this.flpVehicules.Size = new System.Drawing.Size(382, 165);
             this.flpVehicules.TabIndex = 13;
@@ -201,6 +201,7 @@
             // rtbMotif
             // 
             this.rtbMotif.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(234)))), ((int)(((byte)(167)))));
+            this.rtbMotif.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rtbMotif.Location = new System.Drawing.Point(15, 75);
             this.rtbMotif.Name = "rtbMotif";
             this.rtbMotif.Size = new System.Drawing.Size(348, 127);
@@ -264,7 +265,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.ForeColor = System.Drawing.Color.Coral;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1021, 73);
             this.panel1.TabIndex = 11;
@@ -295,7 +296,7 @@
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.rtbMotif);
             this.panel2.Location = new System.Drawing.Point(47, 162);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(928, 214);
             this.panel2.TabIndex = 12;
@@ -305,7 +306,7 @@
             this.rtbVille.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(234)))), ((int)(((byte)(167)))));
             this.rtbVille.Font = new System.Drawing.Font("Arial", 12F);
             this.rtbVille.Location = new System.Drawing.Point(507, 163);
-            this.rtbVille.Margin = new System.Windows.Forms.Padding(2);
+            this.rtbVille.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rtbVille.Name = "rtbVille";
             this.rtbVille.Size = new System.Drawing.Size(381, 27);
             this.rtbVille.TabIndex = 11;
@@ -317,7 +318,7 @@
             this.rtbCP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(234)))), ((int)(((byte)(167)))));
             this.rtbCP.Font = new System.Drawing.Font("Arial", 12F);
             this.rtbCP.Location = new System.Drawing.Point(563, 127);
-            this.rtbCP.Margin = new System.Windows.Forms.Padding(2);
+            this.rtbCP.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rtbCP.MaxLength = 5;
             this.rtbCP.Name = "rtbCP";
             this.rtbCP.Size = new System.Drawing.Size(68, 27);
@@ -341,7 +342,7 @@
             this.rtbRue.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(234)))), ((int)(((byte)(167)))));
             this.rtbRue.Font = new System.Drawing.Font("Arial", 12F);
             this.rtbRue.Location = new System.Drawing.Point(507, 90);
-            this.rtbRue.Margin = new System.Windows.Forms.Padding(2);
+            this.rtbRue.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rtbRue.Name = "rtbRue";
             this.rtbRue.Size = new System.Drawing.Size(381, 27);
             this.rtbRue.TabIndex = 7;
@@ -359,7 +360,7 @@
             this.panel3.Controls.Add(this.lblCaserne);
             this.panel3.Font = new System.Drawing.Font("Arial", 12F);
             this.panel3.Location = new System.Drawing.Point(47, 395);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(928, 153);
             this.panel3.TabIndex = 13;
@@ -386,7 +387,7 @@
             this.pnlEnginPompier.Controls.Add(this.flpVehicules);
             this.pnlEnginPompier.Controls.Add(this.btnCreer);
             this.pnlEnginPompier.Location = new System.Drawing.Point(47, 570);
-            this.pnlEnginPompier.Margin = new System.Windows.Forms.Padding(2);
+            this.pnlEnginPompier.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pnlEnginPompier.Name = "pnlEnginPompier";
             this.pnlEnginPompier.Size = new System.Drawing.Size(928, 360);
             this.pnlEnginPompier.TabIndex = 14;
@@ -410,15 +411,15 @@
             this.label13.Location = new System.Drawing.Point(495, 63);
             this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(71, 18);
+            this.label13.Size = new System.Drawing.Size(41, 18);
             this.label13.TabIndex = 17;
-            this.label13.Text = "Matricule";
+            this.label13.Text = "Nom";
             // 
             // flpPompiers
             // 
             this.flpPompiers.AutoScroll = true;
             this.flpPompiers.Location = new System.Drawing.Point(499, 88);
-            this.flpPompiers.Margin = new System.Windows.Forms.Padding(2);
+            this.flpPompiers.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.flpPompiers.Name = "flpPompiers";
             this.flpPompiers.Size = new System.Drawing.Size(383, 165);
             this.flpPompiers.TabIndex = 16;
