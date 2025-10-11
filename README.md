@@ -2,7 +2,8 @@
 
 <img width="1366" height="725" alt="Capture d’écran (19)" src="https://github.com/user-attachments/assets/3a451b13-a899-41ae-bfa6-871397708f2d" />
 
-Projet développé en 5 semaines par un groupe de 3 étudiants dans le cadre de leur formation.
+Ce projet, intitulé Gestion de Casernes de Pompiers, a été développé en 5 semaines dans le cadre d’un projet tutoré par un groupe de 3 étudiants.
+L’application est réalisée en C# (.NET Framework) avec une base de données SQLite. Elle permet une gestion complète des casernes de pompiers, incluant la supervision des missions, du matériel, des engins, et du personnel. Plusieurs casernes peuvent être créées, consultées et gérées, avec des liaisons entre elles pour une coordination efficace. 
 
 ## Fonctionnalités
 - **Gestion des ressources humaines** : Consultation profils pompiers, habilitations, grades, affectations
@@ -24,14 +25,13 @@ Projet développé en 5 semaines par un groupe de 3 étudiants dans le cadre de 
 - Maîtrise de la liaison de données
 - Gestion des transactions SQLite
 
-
-## 🛠 Technologies Utilisées
+## Technologies Utilisées
 - **C# .NET** - Windows Forms
 - **SQLite** - Base de données relationnelle
 - **iTextSharp** - Génération de rapports PDF
 - **Git** - Gestion collaborative de version
 
-## 📦 Installation et Utilisation
+## Installation et Utilisation
 1. **Cloner le repository** :
    ```bash
    git clone [url-du-depot]
@@ -47,14 +47,10 @@ Projet développé en 5 semaines par un groupe de 3 étudiants dans le cadre de 
    - Le formulaire principal `mainLayout` charge dynamiquement les UserControls
    - Utiliser les identifiants admin pour accéder aux fonctionnalités étendues
 
-
-## 🏗 Architecture
+## Architecture
 - **Mode déconnecté** : `MesDatas.cs` pour les opérations batch
 - **Mode connecté** : `Connexion.cs` pour les opérations temps réel
 - **UserControls modulaires** : Chargement dynamique dans `pnlMainLayout`
 - **Classes utilitaires** : `GenerateurPdf`, `HabilitationItem`
 
 ---
-
-
-Ce README reflète fidèlement votre projet tel que documenté dans vos rapports ! 🎯
