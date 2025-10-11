@@ -5,20 +5,6 @@
 Gestion de Casernes de Pompiers, a été développé en 5 semaines dans le cadre d’un projet tutoré par un groupe de 3 étudiants.
 L’application est réalisée en C# (.NET Framework) avec une base de données SQLite. Elle permet une gestion complète des casernes de pompiers, incluant la supervision des missions, du matériel, des engins, et du personnel. Plusieurs casernes peuvent être créées, consultées et gérées, avec des liaisons entre elles pour une coordination efficace. 
 
-## Fonctionnalités
-- **Gestion des ressources humaines** : Consultation profils pompiers, habilitations, grades, affectations
-- **Tableau de bord missions** : Visualisation, clôture et génération PDF
-- **Création de nouvelles missions**
-- **Gestion des engins** : Liaison données véhicules-caserne
-- **Statistiques**
-- **Système d'authentification** : admin
-
-**Architecture technique :**
-- Dualité **mode connecté/déconnecté** avec classes `Connexion.cs` et `MesDatas.cs`
-- Navigation via **UserControls** dynamiques dans un `mainLayout`
-- Génération PDF avec **iTextSharp**
-- Base **SQLite** avec relations complexes
-
 ## Technologies Utilisées
 - **C# .NET** - Windows Forms
 - **SQLite** - Base de données relationnelle
@@ -47,4 +33,16 @@ L’application est réalisée en C# (.NET Framework) avec une base de données 
 - **UserControls modulaires** : Chargement dynamique dans `pnlMainLayout`
 - **Classes utilitaires** : `GenerateurPdf`, `HabilitationItem`
 
----
+## Fonctionnalités
+- **Gestion des ressources humaines** : Consultation profils pompiers, habilitations, grades, affectations
+- **Tableau de bord missions** : Visualisation, clôture et génération PDF
+- **Création de nouvelles missions**
+- **Gestion des engins** : Liaison données véhicules-caserne
+- **Statistiques**
+- **Système d'authentification** : admin
+
+**Architecture technique :**
+- Dualité **mode connecté/déconnecté** avec classes `Connexion.cs` et `MesDatas.cs`
+- Navigation via **UserControls** dynamiques dans un `mainLayout`
+- Génération PDF avec **iTextSharp**
+- Base **SQLite** avec relations complexes
