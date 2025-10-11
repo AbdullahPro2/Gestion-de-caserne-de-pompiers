@@ -8,7 +8,7 @@ L’application est réalisée en C# (.NET Framework) avec une base de données 
 ## Fonctionnalités
 - **Gestion des ressources humaines** : Consultation profils pompiers, habilitations, grades, affectations
 - **Tableau de bord missions** : Visualisation, clôture et génération PDF
-- **Création de nouvelles missions** 
+- **Création de nouvelles missions**
 - **Gestion des engins** : Liaison données véhicules-caserne
 - **Statistiques**
 - **Système d'authentification** : admin
@@ -19,12 +19,6 @@ L’application est réalisée en C# (.NET Framework) avec une base de données 
 - Génération PDF avec **iTextSharp**
 - Base **SQLite** avec relations complexes
 
-**Défis relevés :**
-- Transformation mode connecté → déconnecté
-- Problèmes Git résolus avec l'aide externe
-- Maîtrise de la liaison de données
-- Gestion des transactions SQLite
-
 ## Technologies Utilisées
 - **C# .NET** - Windows Forms
 - **SQLite** - Base de données relationnelle
@@ -34,7 +28,7 @@ L’application est réalisée en C# (.NET Framework) avec une base de données 
 ## Installation et Utilisation
 1. **Cloner le repository** :
    ```bash
-   git clone [url-du-depot]
+   git clone https://github.com/AbdullahPro2/Gestion-de-caserne-de-pompiers.git
    ```
 
 2. **Ouvrir la solution** dans Visual Studio
