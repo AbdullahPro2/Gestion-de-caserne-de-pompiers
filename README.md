@@ -46,3 +46,12 @@ L’application est réalisée en C# (.NET Framework) avec une base de données 
 - Navigation via **UserControls** dynamiques dans un `mainLayout`
 - Génération PDF avec **iTextSharp**
 - Base **SQLite** avec relations complexes
+
+
+## Auteurs  
+Projet réalisé dans le cadre du **BUT Informatique**  
+
+- **Étudiant :** [Thomas Barseghian](https://github.com/thomasbarseghian)
+- **Binôme :** [Abdullah Nezami](https://github.com/AbdullahPro2)
+
+---
